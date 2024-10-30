@@ -118,5 +118,9 @@
 }
 .card2{
     margin-top: 50px;
-    background-color: #f6f6f6;
+    background-color: black;
+}
+.mat1{
+    color: #f6f6f6;
+    padding-left: 9%;
 }
