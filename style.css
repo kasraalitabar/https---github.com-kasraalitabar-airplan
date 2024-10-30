@@ -29,6 +29,9 @@
     margin-bottom: 1rem;
     padding-top: 1rem;
 }
+.def{
+    width: 250px;
+}
 .first{
     color: black;
     margin-top: 1.5rem;
@@ -36,5 +39,40 @@
 .plan1{
     width: 100%;
     height: 100%;
+    margin-top: 1.5rem;
 
+}
+.def2{
+    width: 200px;
+    padding-top: 6rem ;
+    color: #616161;
+    font-size: large;
+}
+.aer{
+    width: 100px;
+    font-size: xx-large;
+}
+.def3{
+    font-size: large;
+}
+.second{
+    color: black;
+}
+.back{
+    background-image: url(./assets/images/backplane.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -100px;
+    width: 325px;
+    height: 600px;
+    margin-top: 1.5rem;
+    border-radius: 20px;
+}
+.cut{
+    width: 200px;
+}
+.whit{
+    background-color: #ffffff;
+    width: 100px;
+    height: 100px;
 }
