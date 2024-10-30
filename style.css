@@ -110,6 +110,7 @@
 .def5{
     width: 250px;
     padding-left: 9%;
+    padding-bottom: .5rem;
     color: #464646;
 }
 .black{
@@ -133,6 +134,7 @@
     background-size: contain;
     width: 100%;
     height: 500px;
+    
 }
 .main2{
     max-width: 320px;
@@ -144,14 +146,15 @@
     background-size: cover;
     width: 100%;
     height: 600px;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    margin-top: 70%;
+    margin-top: 20%;
+    
 }
 .def6{
     font-size: xx-large;
     color: #ffffff;
     line-height: 50px;
+    padding-left: .5rem;
+    padding-right: .5rem;
 }
 .new{
     font-size: xx-large;
