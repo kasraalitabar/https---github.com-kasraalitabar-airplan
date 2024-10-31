@@ -314,7 +314,6 @@
     cursor: pointer;
 }
 
-.burger:hover {}
 
 .dropbtn {
     background-color: #ffffff;
@@ -358,12 +357,13 @@
     background-color: #ffffff;
 }
 
-@media  (min-width=1070px) {
-    #navbar {
-        max-width: 1071px;
+@media  (min-width=970px) {
+     
+    .navbar {
+        max-width: 970px;
         margin-left: auto;
         margin-right: auto;
-        background-color: #ffffff;
+        background-color: #ff0000;
         width: 100%;
         height: auto;
         display: flex;
