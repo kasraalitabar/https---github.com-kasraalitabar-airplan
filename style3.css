@@ -7,6 +7,18 @@ body{
     font-family: wofff;
 }
 
+.navbar {
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
 .dropbtn {
     background-color: #ffffff;
     color: white;
@@ -48,52 +60,51 @@ body{
 .dropdown:hover .dropbtn {
     background-color: #ffffff;
 }
-.redefinder {
-    font-size: xx-large;
-
+.med{
+    display: none;
 }
-.mainbar{
+.mainbar {
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: #f6f6f6;
+    width: 100%;
+    height: 100%;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
 }
-.navbar{
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-}
-.text{
+.redefinder {
+    width: 300px;
     font-size: xx-large;
-}
-.sub{
-    margin-left: 46px;
-}
-.top {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    margin-bottom: 2rem;
-    cursor: pointer;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+    color: #333333;
 }
 
-.dwn {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    color: #464646;
-    cursor: pointer;
+.def {
+    width: 250px;
     font-size: large;
+    color: #444444;
 }
-
-.dwn1 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    color: #464646;
-    margin-bottom: 3rem;
-    cursor: pointer;
-    font-size: large;
+.card{
+    position: relative;
 }
-.logos {
+.q{
+    width: 100%;
+    border-radius: 20px;
+}
+.qq{
+    position: absolute;
+    top: 0;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
-    width: 165px;
-    margin-top: 1rem;
-    font-size: large;
+    color: #c7c7c7;
+}
+.qqq{
+    position: absolute;
+    bottom: 0;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px black
 }

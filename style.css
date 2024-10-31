@@ -1,3 +1,11 @@
+@font-face {
+    font-family: wofff;
+    src: url(./assets/font/Inter-Regular.47e70f6ff0.woff2);
+}
+
+body{
+    font-family: wofff;
+}
 .navbar {
     max-width: 320px;
     margin-left: auto;
