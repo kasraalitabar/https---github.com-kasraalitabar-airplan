@@ -1,8 +1,8 @@
-.navbar{
+.navbar {
     max-width: 320px;
     margin-left: auto;
     margin-right: auto;
-    background-color:#ffffff;
+    background-color: #ffffff;
     width: 100%;
     height: auto;
     display: flex;
@@ -10,7 +10,8 @@
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
-.mainbar{
+
+.mainbar {
     max-width: 320px;
     margin-left: auto;
     margin-right: auto;
@@ -20,45 +21,55 @@
     padding-left: 1.5rem;
     padding-right: 1.5rem;
 }
-.logo{
-   
+
+.med {
+    display: none;
 }
-.redefinder{
+
+.redefinder {
     width: 100px;
     font-size: xx-large;
     margin-bottom: 1rem;
     padding-top: 1rem;
 }
-.def{
+
+.def {
     width: 250px;
 }
-.first{
+
+.first {
     color: black;
     margin-top: 1.5rem;
 }
-.plan1{
+
+.plan1 {
     width: 100%;
     height: 100%;
     margin-top: 1.5rem;
 
 }
-.def2{
+
+.def2 {
     width: 200px;
-    padding-top: 6rem ;
+    padding-top: 6rem;
     color: #464646;
     font-size: large;
 }
-.aer{
+
+.aer {
     width: 100px;
     font-size: xx-large;
 }
-.def3{
+
+.def3 {
     font-size: large;
 }
-.second{
+
+.second {
     color: black;
 }
-.back{
+
+.back {
     background-image: url(./assets/images/backplane.avif);
     background-repeat: no-repeat;
     background-size: cover;
@@ -68,12 +79,14 @@
     margin-top: 1.5rem;
     border-radius: 20px;
 }
-.cut{
+
+.cut {
     width: 200px;
     font-size: xx-large;
     padding: .5rem .5rem;
 }
-.whit{
+
+.whit {
     background-color: #ffffff;
     width: 100px;
     height: 190px;
@@ -83,60 +96,71 @@
     height: 320px;
     border-radius: 20px;
 }
-.advance{
+
+.advance {
     padding-left: 7%;
     padding-top: 5%;
 }
-.def4{
+
+.def4 {
     padding-left: 7%;
     width: 150px;
     color: #464646;
     font-size: large;
     padding-bottom: 10px;
 }
-.card{
+
+.card {
     margin-top: 50px;
     background-color: #f6f6f6;
     border-radius: 20px;
 }
-.engine{
+
+.engine {
     width: 100%;
     height: 100%;
     border-radius: 20px;
 }
-.mat{
+
+.mat {
     padding-left: 9%;
 }
-.def5{
+
+.def5 {
     width: 250px;
     padding-left: 9%;
     padding-bottom: .5rem;
     color: #464646;
 }
-.black{
+
+.black {
     width: 100%;
     height: 100%;
-    border-radius: 20px;  
+    border-radius: 20px;
 
 }
-.card2{
+
+.card2 {
     margin-top: 50px;
     background-color: black;
     border-radius: 20px;
 }
-.mat1{
+
+.mat1 {
     color: #f6f6f6;
     padding-left: 9%;
 }
-.back2{
+
+.back2 {
     background-image: url(./assets/images/backplane.avif);
     background-repeat: no-repeat;
     background-size: contain;
     width: 100%;
     height: 500px;
-    
+
 }
-.main2{
+
+.main2 {
     max-width: 320px;
     margin-left: auto;
     margin-right: auto;
@@ -147,69 +171,82 @@
     width: 100%;
     height: 600px;
     margin-top: 20%;
-    
+
 }
-.def6{
+
+.def6 {
     font-size: xx-large;
     color: #ffffff;
     line-height: 50px;
     padding-left: .5rem;
     padding-right: .5rem;
 }
-.new{
+
+.new {
     font-size: xx-large;
     margin-top: 4rem;
 }
-.def7{
+
+.def7 {
     width: 200px;
     color: #464646;
     font-size: large;
     padding-bottom: 10px;
 }
-.imgs{
+
+.imgs {
     margin-top: 4rem;
 }
-.list{
+
+.list {
     width: 150px;
     height: 250px;
     object-fit: cover;
     border-radius: 20px;
 }
-.fullplan{
+
+.fullplan {
     width: 100%;
     height: 200px;
     object-fit: cover;
     border-radius: 20px;
     margin-top: 4rem;
 }
-.Heritage{
+
+.Heritage {
     font-size: larger;
     color: #464646;
 }
-.innovation{
+
+.innovation {
     font-size: xx-large;
 }
-.sleek{
+
+.sleek {
     color: #464646;
     width: 200px;
 }
-.perfection1{
+
+.perfection1 {
     width: 250px;
 }
-.every{
-    background-color:rgb(218, 218, 218);
+
+.every {
+    background-color: rgb(218, 218, 218);
     border-radius: 20px;
     width: 230px;
     padding: .5rem .5rem;
 }
-.footer{
+
+.footer {
     max-width: 370px;
     margin-left: auto;
     margin-right: auto;
     background-color: #f1f1f1;
 
 }
-.text{
+
+.text {
     width: 280px;
     padding-top: 7rem;
     padding-left: .5rem;
@@ -217,9 +254,10 @@
     margin-top: 0;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
-    
+
 }
-.searchbox{
+
+.searchbox {
     border-radius: 5px;
     width: 250px;
     margin: .5rem 2rem;
@@ -229,7 +267,8 @@
     padding-left: 1.5rem;
     padding-right: 1.5rem;
 }
-.sub{
+
+.sub {
     width: 300px;
     margin: .5rem 2rem;
     padding: .5rem 1rem;
@@ -239,68 +278,106 @@
     padding-left: 1.5rem;
     padding-right: 1.5rem;
 }
-.we{
+
+.we {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     font-size: large;
 }
-.logos{
+
+.logos {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     width: 165px;
     margin-top: 1rem;
 }
-.top{
+
+.top {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     margin-bottom: 2rem;
     cursor: pointer;
 }
-.dwn{
+
+.dwn {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     color: #464646;
     cursor: pointer;
 }
-.dwn1{
+
+.dwn1 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     color: #464646;
     margin-bottom: 3rem;
     cursor: pointer;
 }
-.burger:hover{
 
-}
+.burger:hover {}
+
 .dropbtn {
     background-color: #ffffff;
     color: white;
     padding: 16px;
     font-size: 16px;
     border: none;
-  }
-  .dropdown {
+}
+
+.dropdown {
     position: relative;
     display: inline-block;
-  }
-  .dropdown-content {
+}
+
+.dropdown-content {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
     min-width: 160px;
     width: 100%;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-  }
-   .dropdown-content a {
+}
+
+.dropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-  }
-  
-  .dropdown-content a:hover {background-color: #ddd;}
+}
 
-  .dropdown:hover .dropdown-content {display: block;}
-  
-  .dropdown:hover .dropbtn {background-color: #ffffff;}
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #ffffff;
+}
+
+@media  (min-width=1070px) {
+    #navbar {
+        max-width: 1071px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #ffffff;
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .mainbar {
+        display: none;
+    }
+
+    .med {
+        display: inline-block;
+    }
+    
+}

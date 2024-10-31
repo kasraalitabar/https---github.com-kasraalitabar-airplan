@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELECTRAX</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+        src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="1.css">
+</head>
+
+<body>
+
+    <nav class="navbar max-w-xs mx-auto bg-white w-full h-auto flex justify-between py-8">
+        <img src="./assets/images/670033cb2ea0b817b77c608f_ElectraX Logo.svg" alt="" class="logo">
+        <div class="dropdown">
+            <img class="dropbtn" src="./assets/images/nav.svg" alt="">
+            <div class="dropdown-content">
+                <a href="#">electra x</a>
+                <a href="#">about</a>
+                <a href="#">careers</a>
+                <a href="#">news</a>
+                <a href="#">contact</a>
+            </div>
+        </div>
+        <div class="med hidden">
+            <div>electra x</div>
+            <div>about</div>
+            <div>careers</div>
+            <div>news</div>
+            <div>contact</div>
+        </div>
+    </nav>
+    <main class="mainbar max-w-xs mx-auto py-6 w-full h-full">
+        <h2 class="redefinder pt-4 mb-4">Contact us</h2>
+        <p class="def text-gray-800">Need help? Our Client Success team and advisors are here to answer all your questions</p>
+    </main>
+    <h2 class="text max-w-xs mx-auto mb-5">EMAIL:Info@email.com</h2>
+    <h2 class="text max-w-xs mx-auto mb-5">PHONE:Info@email.com</h2>
+    <h2 class="text max-w-xs mx-auto mb-5">ADDRESS:123 Acme street</h2>
+    <h3 class="title">First Name*</h3>
+    <input class="searchbox" type="text" placeholder="First Name">
+</body>
+
+</html>
