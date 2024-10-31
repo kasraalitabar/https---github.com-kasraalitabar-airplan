@@ -56,5 +56,35 @@
     font-size: xx-large;
 }
 .sub{
-    margin-left: 90px;
+    margin-left: 46px;
+}
+.top {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+.dwn {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    color: #464646;
+    cursor: pointer;
+    font-size: large;
+}
+
+.dwn1 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    color: #464646;
+    margin-bottom: 3rem;
+    cursor: pointer;
+    font-size: large;
+}
+.logos {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    width: 165px;
+    margin-top: 1rem;
+    font-size: large;
 }
