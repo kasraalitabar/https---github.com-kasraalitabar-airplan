@@ -88,10 +88,12 @@ body{
 }
 .card{
     position: relative;
+    margin-bottom: 2rem;
 }
 .q{
     width: 100%;
     border-radius: 20px;
+    object-fit: cover;
 }
 .qq{
     position: absolute;
@@ -99,6 +101,7 @@ body{
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     color: #c7c7c7;
+    
 }
 .qqq{
     position: absolute;
@@ -107,4 +110,10 @@ body{
     padding-right: 1.5rem;
     color: #ffffff;
     text-shadow: 2px 2px 4px black
+}
+footer{
+    max-width: 320px;
+    margin-left: auto;
+    nav-right: auto;
+    background-color: #f1f1f1;
 }
