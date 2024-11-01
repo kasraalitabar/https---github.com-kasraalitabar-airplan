@@ -365,13 +365,13 @@ body{
     background-color: #ffffff;
 }
 
-@media  (min-width:1070px) {
+@media  (min-width:1348px) {
      
     .navbar {
-        max-width: 970px;
+        max-width: 1348px;
         margin-left: auto;
         margin-right: auto;
-        background-color: #f6f6f6;
+        background-color: #ffffff;
         width: 100%;
         height: auto;
         display: flex;
@@ -380,12 +380,76 @@ body{
         padding-bottom: 2rem;
     }
 
-    .mainbar {
+    .med {
+        display:flex;
+        flex-direction: row;
+        gap: 2rem;
+        color: #464646;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    .dropbtn{
         display: none;
     }
-
-    .med {
-        display: inline-block;
+    .logo{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
     }
-    
+    .mainbar{
+        max-width: 1348px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #f1f1f1;
+        width: 100%;
+        height: auto;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    .redefinder{
+        width: 100%;
+        font-size: xx-large;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        color: #222222;
+    }
+    .plan1{
+        width: 50%;
+    }
+    .flexx{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .def{
+        width: 500px;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        margin-bottom: 40%;
+        color: #464646;
+    }
+    .first{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        color: #777777;
+    }
+    .def2{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        width: 300px;
+    }
+    .aer{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        width: 600px;
+    }
+    .def3{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        width: 700px;
+    }
+    .second{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
 }
