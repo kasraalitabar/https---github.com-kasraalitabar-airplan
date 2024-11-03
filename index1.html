@@ -5,52 +5,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ELECTRAX</title>
+    
+    <link rel="stylesheet" href="main1.css">
     <script src="https://cdn.tailwindcss.com"></script>
-    <script
-        src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
     <script>
         tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        clifford: '#da373d',
-                    }
-                }
+          theme: {
+            extend: {
+                
+              screen: {
+                Md: '1070px',
+                clifford: '#da373d',
+              }
             }
+          }
         }
-    </script>
-    <link rel="stylesheet" href="main1.css">
+      </script>
+       <style type="text/tailwindcss">
+        @layer utilities {
+          .content-auto {
+            content-visibility: auto;
+          }
+        }
+      </style>
+      <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
 </head>
 
 <body>
 
-    <nav class="navbar max-w-xs mx-auto bg-white w-full h-auto flex justify-between py-8 px-2">
-        <img src="./assets/images/670033cb2ea0b817b77c608f_ElectraX Logo.svg" alt="" class="logo">
+    <nav class="navbar max-w-xs mx-auto bg-white w-full h-auto flex justify-between py-8 sm:w-full sm:h-auto sm:flex sm:max-w-7xl sm:py-8 sm:justify-between sm:bg-gray-50">
+        <img src="./assets/images/670033cb2ea0b817b77c608f_ElectraX Logo.svg" alt="" class="logo sm:px-6">
         <div class="dropdown">
-            <img class="dropbtn" src="./assets/images/nav.svg" alt="">
+            <img class="dropbtn  sm:hidden" src="./assets/images/nav.svg" alt="">
             <div class="dropdown-content">
-                <a href="#">electra x</a>
+                <a href="index3.html">electra x</a>
                 <a href="#">about</a>
                 <a href="#">careers</a>
-                <a href="#">news</a>
+                <a href="index2.html">news</a>
                 <a href="#">contact</a>
             </div>
         </div>
-        <div class="med hidden">
-            <a href="file:///C:/Users/vcc/Desktop/airplan/index.html">electra x</a>
+        <div class="med hidden sm:flex-row sm:flex sm:gap-8 sm:px-6 sm:border-gray-500">
+            <a href="index3.html">electra x</a>
             <div>about</div>
             <div>careers</div>
-            <a href="file:///C:/Users/vcc/Desktop/airplan/index2.html">news</a>
+            <a href="index2.html">news</a>
             <div>contact</div>
         </div>
     </nav>
-    <main class="mainbar max-w-xs mx-auto px-2 py-6 w-full h-full">
-        <h2 class="redefinder pt-4 mb-4">Contact us</h2>
-        <p class="def text-gray-800">Need help? Our Client Success team and advisors are here to answer all your
+    <main class="mainbar max-w-xs mx-auto px-2 py-6 w-full h-full sm:max-w-7xl">
+        <h2 class="redefinder pt-4 mb-4 sm:px-6">Contact us</h2>
+        <p class="def text-gray-800  sm:px-6">Need help? Our Client Success team and advisors are here to answer all your
             questions</p>
-        <h2 class="texts max-w-xs mx-auto mb-4 mt-2">EMAIL:Info@email.com</h2>
-        <h2 class="texts max-w-xs mx-auto mb-4 mt-2">PHONE:Info@email.com</h2>
-        <h2 class="texts max-w-xs mx-auto mb-4 mt-2">ADDRESS:123 Acme street</h2>
+        <h2 class="texts max-w-xs mx-auto mb-4 mt-2 sm:ml-0  sm:px-6">EMAIL:Info@email.com</h2>
+        <h2 class="texts max-w-xs mx-auto mb-4 mt-2 sm:ml-0  sm:px-6">PHONE:Info@email.com</h2>
+        <h2 class="texts max-w-xs mx-auto mb-4 mt-2 sm:ml-0  sm:px-6">ADDRESS:123 Acme street</h2>
         <div class="que max-w-xs mx-auto mt-10">
             <h3 class="title mb-5 ">First Name*</h3>
             <input class="searchbox w-full rounded-lg border-gray-400" type="text" placeholder="First Name">
@@ -67,9 +76,9 @@
             <h3 class="title mb-5 ">Message*</h3>
             <input class="searchbox w-full rounded-lg border-gray-400 h-48" type="text" placeholder="Message  ">
         </div>
-        <button class="but bg-gray-300 px-8 py-4 border-gray-400 mt-5">send massage</button>
+        <button class="but bg-gray-300  sm:ml-96 sm:pl-44 sm:pr-44 px-8 py-4 border-gray-400 mt-5"  >send massage</button>
     </main>
-        <footer class="footer max-w-xs mx-auto bg-gray-200">
+        <footer class="footer max-w-xs mx-auto bg-gray-200 sm:max-w-7xl">
             <h2 class="text pt-4 px-6">Join our newsletter</h2>
             <h2 class="we px-6 pt-3">We’ll send you a nice letter once per week. No spam.</h2>
             <input class="searchbox px-6 ml-6 mt-2" type="text" placeholder="enter your email">

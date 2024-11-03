@@ -94,3 +94,10 @@ body{
 .footer{
     background-color: #ddd;
 }
+.med{
+    display: none;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
