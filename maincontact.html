@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELECTRAX</title>
+    
+    <link rel="stylesheet" href="main5.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+                
+              screen: {
+                Md: '1070px',
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+       <style type="text/tailwindcss">
+        @layer utilities {
+          .content-auto {
+            content-visibility: auto;
+          }
+        }
+      </style>
+      <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+</head>
+
+<body>
+
+
+    <main class="mainbar max-w-xs mx-auto px-2 py-6 w-full h-full sm:max-w-7xl">
+        <h2 class="redefinder pt-4 mb-4 sm:px-6">Contact Me</h2>
+        <p class="def text-gray-800  sm:px-6">Need help? Our Client Success team and advisors are here to answer all your
+            questions</p>
+        <h2 class="texts max-w-xs mx-auto mb-4 mt-2 sm:ml-0  sm:px-6">EMAIL:kasraalitabar@gmail.com</h2>
+        <h2 class="texts max-w-xs mx-auto mb-4 mt-2 sm:ml-0  sm:px-6">PHONE:+989382663541</h2>
+        <h2 class="texts max-w-xs mx-auto mb-4 mt-2 sm:ml-0  sm:px-6">ADDRESS:tehran</h2>
+        <div class="que max-w-xs mx-auto mt-10">
+            <h3 class="title mb-5 ">First Name*</h3>
+            <input class="searchbox w-full rounded-lg border-gray-400" type="text" placeholder="First Name">
+        </div>
+        <div class="que max-w-xs mx-auto mt-10">
+            <h3 class="title mb-5 ">Last Name*</h3>
+            <input class="searchbox w-full rounded-lg border-gray-400" type="text" placeholder="Last Name">
+        </div>
+        <div class="que max-w-xs mx-auto mt-10">
+            <h3 class="title mb-5 ">Subject *</h3>
+            <input class="searchbox w-full rounded-lg border-gray-400" type="text" placeholder="Subject ">
+        </div>
+        <div class="que max-w-xs mx-auto mt-10">
+            <h3 class="title mb-5 ">Message*</h3>
+            <input class="searchbox w-full rounded-lg border-gray-400 h-48" type="text" placeholder="Message  ">
+        </div>
+        <button class="but bg-gray-300  sm:flex sm:justify-center sm:items-center sm:pl-44 sm:pr-44 px-8 py-4 border-gray-400 mt-5"  >send massage</button>
+    </main>
+</body>
+
+</html>

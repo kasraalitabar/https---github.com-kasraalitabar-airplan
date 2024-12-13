@@ -10,7 +10,7 @@ body {
 }
 
 .navbar {
-    max-width: 1280px;
+    max-width: 5000px;
     margin-left: auto;
     margin-right: auto;
     background-color: #5c7c89;
@@ -47,15 +47,16 @@ body {
 
 .progect {
     color: #5c7c89;
-    margin-left: 47%;
-    margin-top: 10%;
+    display: flex;
+    justify-content: space-around;
     font-size: x-large;
     margin-bottom: 100px;
+    margin-top: 100px;
 }
 
 .all{
     max-width: 1280px;
-    width: max-content;
+    width: 800px;
     border-radius: 20px;
     height: 200px;
     margin-left: auto;
@@ -95,7 +96,9 @@ body {
         
     }
     .progect{
-        margin-left:35%;
+        display: flex;
+        justify-content: space-around;
+        
     }
     .resume {
         display: none;
@@ -139,4 +142,16 @@ body {
     }
 
     
+}
+.flexeble{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 2rem;
+    font-size: x-large;
+    margin-right: 6rem;
+    padding-top: 2rem;
+}
+.link1{
+    color: #ffffff;
 }

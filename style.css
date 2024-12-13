@@ -188,7 +188,6 @@ body{
 .def6 {
     font-size: xx-large;
     color: #ffffff;
-    line-height: 50px;
     padding-left: .5rem;
     padding-right: .5rem;
 }
@@ -344,9 +343,11 @@ body{
     position: absolute;
     background-color: #f1f1f1;
     min-width: 160px;
-    width: 100%;
+    width: 100px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
+    position: absolute;
+    right: 0;
 }
 
 .dropdown-content a {
@@ -368,10 +369,10 @@ body{
     background-color: #ffffff;
 }
 
-@media  (min-width:1348px) {
+@media  (min-width:1070px) {
      
     .navbar {
-        max-width: 1348px;
+        max-width: 1070px;
         margin-left: auto;
         margin-right: auto;
         background-color: #ffffff;
@@ -399,7 +400,7 @@ body{
         padding-right: 1.5rem;
     }
     .mainbar{
-        max-width: 1348px;
+        max-width: 1070px;
         margin-left: auto;
         margin-right: auto;
         background-color: #f1f1f1;
@@ -426,7 +427,6 @@ body{
     .def{
         width: 500px;
         padding-left: 1.5rem;
-        padding-right: 1.5rem;
         margin-bottom: 40%;
         color: #464646;
     }
@@ -457,7 +457,7 @@ body{
     .cart{
         display: flex;
         flex-direction: row;
-        gap: 0;
+        gap: 24px;
     }
     .black , .engine {
         width: 350px;
@@ -479,6 +479,7 @@ body{
     .whit{
         position: absolute;
         bottom:2rem ;
+        left: -44px;
         width: 660px;
         height: 160px;
         
@@ -506,7 +507,7 @@ body{
     .def6{
         padding-left: 20.5rem;
         padding-right: 20.5rem;
-        padding-top: 9rem;
+        padding-top: 3rem;
     }
     .new{
         padding-left: 1.5rem;
@@ -532,7 +533,7 @@ body{
         padding-right: 1.5rem;
     }
     .fullplan{
-        width: 600px;
+        width: 460px;
         height: 700px;
         
     }
@@ -548,7 +549,7 @@ body{
         padding: 1rem 2rem;
     }
     .footer{
-        max-width: 1348px;
+        max-width: 1070px;
     margin-left: auto;
     margin-right: auto;
     background-color: #e0e0e0;
