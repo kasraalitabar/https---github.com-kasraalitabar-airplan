@@ -22,7 +22,7 @@ div.box-items {
 }
 .matched{
     pointer-events: none;
-    background-color: green !important;
+    background-color: #00b000 !important;
 }
 .allin{
     display: grid;
@@ -31,6 +31,11 @@ div.box-items {
     max-width: max-content;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 2%;
+}
+.blur{
+    filter: blur(10px);
+    pointer-events: none;
 }
 @media (max-width:600px) {
     div.box-items{

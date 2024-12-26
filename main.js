@@ -3,7 +3,7 @@ const selectedBoxes = [];
 let section
 let matchCount =0
 const refreshBtn = document.getElementById("refresh");
-
+const root = document.getElementById("root")
 
 
 function boxclick(evt) {
@@ -18,8 +18,8 @@ function boxclick(evt) {
             selectedBoxes[0].classList.add("matched");
             selectedBoxes[1].classList.add("matched");
             selectedBoxes.length = 0;
-            if(matchCount ===8){
-                setTimeout(function() { alert("you won restart the game"); }, 1000);
+            if(matchCount === 8){
+                refresh();
             }
             
         } else {
@@ -34,12 +34,10 @@ function boxclick(evt) {
     }
 }
 
-// function matchCards() {
-//     mathcedCount++;
-//     openCards[0].classList.add("matched");
-//     openCards[1].classList.add("matched");
-//     openCards.length = 0;
-
+function refresh(){
+    document.querySelector(".allin").classList.add("blur");
+    refreshBtn.style.display ="block"
+}
 
 function freez() {
     for (const box of boxes) {
