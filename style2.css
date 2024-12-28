@@ -19,14 +19,13 @@ body {
     margin-left: auto;
     margin-right: auto;
     background-color: #ffffff;
-    width: 100%;
+    width: 80%;
     height: 100px;
     position: relative;
     margin-top: 0;
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 45rem;
+    justify-content: space-between;
     position: sticky;
     top: 0;
     overflow: hidden;
@@ -173,20 +172,42 @@ body {
     font-size: x-small;
     margin-top: 1rem;
 }
-@media (max-width:500px){
+
+@media (max-width:1000px) {
+    .text{
+        width: 610px;
+    }
+    .left{
+        width: 30%;
+    }
+    .wellcome{
+        font-size: larger;
+    }
+    
+}
+@media (max-width:700px) {
+    .text{
+        width: 485px;
+    }
+    .left{
+        width: 25%;
+    }
+    .navbar{
+        width: 100%;
+    }
+}
+@media (max-width:600px){
     .all{
         max-width: 500px;
     }
     .navbar{
         max-width: 500px;
-        width: 100%;
+        width: 80%;
         height: 50px;
         margin-top: 0;
         display: flex;
         align-items: center;
-        justify-content: left;
-        overflow: hidden;
-        gap: 4.5rem;
+        justify-content: space-between;
         margin-left: auto;
         margin-right: auto;
     }
@@ -207,7 +228,79 @@ body {
         margin-top: -8px;
     }
     .left{
+        width: 245px;
+    }
+    .text{
+        width: 200px;
+        flex-direction: column;
+    }
+    .profile{
+        width: 245px;
+    }
+    .about{
+        width: 245px;
+    }
+    .myimg{
+        width: 80px;
+    }
+    .myname{
+        width: 100px;
+        font-size: 14px;
+    }
+    .line{
         width: 150px;
+    }
+    .jobe{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .hi{
+        margin-top: 2rem;
+        font-size: 40px;
+        font-family: tahoma;
+    }
+    .wellcome{
+        font-size: 15px;
+        margin-top: 1rem;
+    }
+    .linkss{
+        margin-bottom: 1rem;
+    }
+}
+@media (max-width:400px){
+    .all{
+        max-width: 500px;
+    }
+    .navbar{
+        max-width: 500px;
+        width: 80%;
+        height: 50px;
+        margin-top: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .name{
+        font-size: 10px;
+        width: 58px;
+    }
+    .job{
+        font-size: 10px;
+        width: 87px;
+        margin-top: 0;
+        margin-left: 0;
+        display: none;
+    }
+    .link{
+        font-size: 10px;
+        padding-right: 0;
+        margin-top: -8px;
+    }
+    .left{
+        width: 65px;
     }
     .text{
         width: 200px;
